@@ -1,5 +1,17 @@
 /* styles.css */
+:root {}
 
-* {
-	font-family: Arial;
+body {
+font-family: 
+background-color: 
 }
+
+h1 {
+	font-size: 10em;
+	color: black; 
+}
+
+p {
+	font-size: 3em;
+	color: black;
+} 
