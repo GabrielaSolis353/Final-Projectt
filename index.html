@@ -2,15 +2,81 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Website Template</title>
-	<link rel="stylesheet" href="./assets/css/styles.css">
+	<title>Galerie Botanique</title>
+	<style type="text/css">
+		body {
+			color: #665544;
+			background-color: #d4d0c6;
+			background-image: <img src="assets/img/background-flower-pattern.jpg" alt="">
+			background-repeat: repeat;
+			font-family: Georgia, "Times New Roman", serif;
+			text-align: center:}
+		.wrapper {
+				width: 720px;
+				margin: 0px auto;}
+		.header {
+			margin: 40px 0px 20px 0px;}
+		.entry {
+			width: 220px;
+			float: left;
+			margin: 10px;
+			height: 198px;
+			background-image: <img src="assets/img/background-02.jpg" alt="">
+			background-repeat: no-repeat;
+			background-position: bottom;}
+		figure {
+			display: block;
+			width: 202px;
+			height: 170px;
+			background-color: #e7e3d8;
+			margin: 0px;
+			padding: 9px;
+			text-align: left;}
+		figure img {
+			width: 200px;
+			height: 150px;
+			border: 1px solid #d6d6d6;}
+		figcaption {
+			background-image: <img src="assets/img/background-03.jpg" alt="">
+			padding-left: 20px;}
+		</style>
 </head>
 <body>
-
-	<h1>Website Template</h1>
-	<p>Fork and use this template repo (a.k.a. "boilerplate") for any web project</p>
-	<img src="assets/img/cat.jpg" alt="">
-
-	<script src="./assets/js/main.js"></script>
+	<div class="wrapper">
+		<div class="header">
+			<img src="assets/img/background-03.jpg" alt="Galerie Botanique" width="456" height="122" />
+			<p>Here is a selection of antique botanical prints held in our collection.</p>
+		</div>
+		<div class="entry">
+			<figure><img src="assets/img/print-01.jpg" alt="Helianthus" />
+				<figcaption>Helianthus</figcaption>
+			</figure>
+		</div>
+		<div class="entry">
+			<figure><img src="assets/img/print-02.jpg" alt="Passiflora" />
+				<figcaption>Passiflora</figcaption>
+			</figure>
+		</div>
+		<div class="entry">
+			<figure><img src="assets/img/print-03.jpg" alt="Nyctocalos" />
+				<figcaption>Nyctocalos</figcaption>
+			</figure>
+		</div>
+		<div class="entry">
+			<figure><img src="assets/img/print-04.jpg" alt="Polianthes" />
+				<figcaption>Polianthes</figcaption>
+			</figure>
+		</div>
+		<div class="entry">
+			<figure><img src="assets/img/print-05.jpg" alt="Blue Ficus" />
+				<figcaption>Blue Ficus</figcaption>
+			</figure>
+		</div>
+		<div class="entry">
+			<figure><img src="assets/img/print-06.jpg" alt="Dendrobium" />
+				<figcaption>Dendrobium</figcaption>
+			</figure>
+		</div>
+	</div>
 </body>
 </html>
