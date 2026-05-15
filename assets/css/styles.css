@@ -4,15 +4,15 @@
 body {
 font-family: Georgia, "Times New Roman", serif;
 color: #665544;
-background-color: #d4d0c6; 
+background-color: #a4ac86; 
 }
 
 h1 {
-	font-size: 10em;
-	color: black; 
+	font-size: 8em;
+	color: #FFFFFF; 
 }
 
 p {
 	font-size: 3em;
-	color: black;
+	color: #FFFFFF;
 } 
